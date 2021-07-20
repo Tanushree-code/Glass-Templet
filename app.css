@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+    background:linear-gradient(to right top,#65dfc9,#6cdbeb);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 35rem;
+    align-items: center;
+    background:linear-gradient(to right bottom,rgba(148, 144, 142,0.6),rgba(97, 90, 87,0.2));
+}
+.section{
+    display: flex;
+    margin: 129px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(to right bottom, rgba(135, 200, 216, 0.7),rgba(139, 214, 243, 0.3));
+    box-shadow: 0 0 25px 0 rgb(41 45 51 / 20%);
+    border-radius: 50px;
+    border-left: 1px solid #454545;
+    border-top: 1px solid #454545;
+     z-index: 1;
+}
+h1{
+    font-family:  sans-serif;
+    line-height: 1.1rem;
+    padding-top: 25px;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+    word-spacing: 5px;
+    padding-bottom: 20px;
+}
+.hr{
+    width: 71px;
+    height: 3px;
+    transform-origin: right center;
+    border:2px solid #454545;
+    border-radius: 2px;
+    margin: 24px auto ;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.image{
+    max-height: 36vh;
+    padding-right: 12px;
+    border-radius: 100px;
+}
+.squre{
+     background: white;
+     background: linear-gradient(to right bottom, rgba(255,255,255,0.6),rgba(255,255,255,0.1));
+     height: 20rem;
+     width: 59rem;
+     position: absolute;
+     border-radius: 50px;
+     border-left: 1px solid #454545;
+     border-top: 1px solid #454545;
+     z-index: -1;
+     box-shadow: 0 0 25px 0 rgb(41 45 51 / 20%);
+     top: 23%;
+     left: 5%;
+    }
+footer{
+    font-size: 1.15rem;
+    background:linear-gradient(to right bottom,rgba(148, 144, 142,0.6),rgba(97, 90, 87,0.2));
+    color: white;
+    height: 68px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 23px;
+}
+span{
+    text-decoration: underline;
+    cursor: pointer;
+}
